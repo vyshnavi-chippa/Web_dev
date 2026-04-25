@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms and input tags</title>
+</head>
+<body>
+    <h1>Form Application for 60days_dev</h1>
+    <form action="post">
+        <div>
+            <label for="username">Enter your username: </label>
+            <input type="text" name="useername" id="username" placeholder="Enter your username">
+        </div>
+        <br>
+        <div>
+            <input type="radio" name="gender" id="male" value="male">
+            <label for="male">Male</label>
+            <input type="radio" name="gender" id="female" value="f3male">
+            <label for="female">Female</label>
+        </div>
+        <br>
+        <div>
+            <label for="Role">Role:</label>
+            <select name="Role" id="Role">
+                <option value="Developer">Developer</option>
+                <option value="Tester">Tester</option>
+            </select>
+        </div>
+        <br>
+        <div>
+            <label for="desc">Description</label>
+            <textarea name="desc" id="desc" placeholder="Describe your role"></textarea>
+        </div>
+        <br>
+        <div>
+            <input type="checkbox" name="terms" id="terms" mandatory>
+            <label for="terms">Agree terms and condtions</label>
+        </div>
+        <br>
+        <div>
+            <input type="submit">
+        </div>
+    </form>
+</body>
+</html>

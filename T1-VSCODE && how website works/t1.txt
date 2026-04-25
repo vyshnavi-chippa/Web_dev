@@ -1,0 +1,13 @@
+client
+browser
+server
+
+client talks to server through browser
+
+java script - client side scriptiing
+js helps to make page dynamic
+
+also check view page source
+check with inspect and network to see the requests
+
+also once go through one website and chheck inspect--example forbes

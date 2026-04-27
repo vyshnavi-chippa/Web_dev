@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS selectors</title>
+    <style>
+    
+        p{
+            color: brown;
+        }
+
+        .c1{
+            color: blue;
+        }
+        #id1{
+            color: red;
+        }
+        *{
+            background-color: peachpuff;
+        }
+        div>h5{
+            color: yellow;
+        }
+        div p{
+            color: blueviolet;
+        }
+        .c2:hover{
+            background-color: black;
+        }
+        a:visited{
+            color: white;
+        }
+        a:active{
+            color: yellow;
+        }
+        a:link{
+            background-color: blueviolet;
+        }
+    </style>
+</head>
+<body>
+    <p>1. Element selector</p>
+    <p class="c1">2. Class selector</p>
+    <p id="id1">3. Id selector</p>
+    <p>4. Universal selector</p>
+    <p>
+        <div>
+        <h5>5. Child selector</h5>
+        </div>
+    </p>
+    <div>
+        <h5>
+            <p>6. Descendent selector</p></h5></div>
+    <p>7. Pseudo selector-hover,active,first child,visited, link</p>
+    <a href="https:/www.google.com" target="_blank" class="c2">Google</a>
+</body>
+</html>

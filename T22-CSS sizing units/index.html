@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Sizing Units</title>
+    <style>
+        *{
+            margin: 0px;
+        }
+        .div1{
+            box-sizing: border-box;
+            background-color: aqua;
+            border: 2px solid black;
+            width: 80vw;
+            height: 20vh;
+            margin: auto;
+        }
+        .div2{
+           box-sizing: border-box;
+            background-color: aqua;
+            border: 2px solid black; 
+            font-size: 12px;
+            width: 80vw;
+            height: 80vh;
+            margin: auto;
+            margin-top: 50px;
+        }
+        .div2>div{
+            font-size: 2em;
+            width: 50%;
+            border: 2px solid red;
+        }
+        .div2>div>div{
+            margin-top: 20px;
+            width: 50%;
+            border: 2px solid blue;
+        }
+    </style>
+</head>
+<body>
+    <div class="div1">This is my div</div>
+    <div class="div2">
+        <div>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Commodi consectetur voluptatem fugiat dolor maiores maxime eum veritatis delectus rem perspiciatis, quos incidunt vero esse unde cumque dolores odit error sed quasi. Perferendis fugiat corporis cum dolore possimus accusamus voluptatum ducimus voluptates unde, ipsa quibusdam tempore.
+            <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis aperiam alias natus consequatur a similique?</div>
+        </div>
+    </div>
+</body>
+</html>
